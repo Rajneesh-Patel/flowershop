@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      nav {
+        background: radial-gradient(
+          circle,
+          rgba(248, 243, 248, 1) 10%,
+          rgba(231, 182, 231, 1) 57%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container">
+        <!--navigation logo-->
+        <a href="#" class="navbar-brand"><i>The Flower Shop</i></a>
+        <!--navigation logo-->
+
+        <!--navigation Links code start here-->
+        <div class="collapse navbar-collapse justify-content-end">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link"><i>Home</i></a>
+            </li>
+            <li class="nav-item">
+              <a href="#About.html" class="nav-link"><i>About</i></a>
+            </li>
+            <li class="nav-item">
+              <a href="#Showcase.html" class="nav-link"><i>Showcase</i></a>
+            </li>
+            <li class="nav-item">
+              <a href="#testimonial.html" class="nav-link"><i>Testimonial</i></a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact.html" class="nav-link"><i>Contact</i></a>
+            </li>
+          </ul>
+        </div>
+        <!--navigation Links code end here-->
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <!--carousel starts here-->
+          <div
+            class="carousel slide carousel-fade"
+            id="demo"
+            data-bs-ride="carousel"
+          >
+            <!--Carousel images starts here-->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images (2)/images/1.jpg" class="d-block w-100" />
+                <div class="carousel-caption">
+                  <h3>Natures Beauty</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images (2)/images/2.jpg" class="d-block w-100" />
+                <div class="carousel-caption">
+                  <h3>Natures Beauty</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images (2)/images/3.jpg" class="d-block w-100" />
+                <div class="carousel-caption">
+                  <h3>Natures Beauty</h3>
+                </div>
+              </div>
+            </div>
+            <!--Carousel images starts here-->
+
+            <!--Left and Right Controls starts here-->
+            <button
+              type="button"
+              class="carousel-control-prev"
+              data-bs-slide="prev"
+              data-bs-target="#demo"
+            >
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button
+              type="button"
+              class="carousel-control-next"
+              data-bs-slide="next"
+              data-bs-target="#demo"
+            >
+              <span class="carousel-control-next-icon"></span>
+            </button>
+            <!--Left and Right Controls ends here-->
+
+            <!--Indicators starts here-->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#demo"
+                class="active"
+                data-bs-slide-to="0"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="2"
+              ></button>
+            </div>
+            <!--Indicators ends here-->
+          </div>
+          <!--carousel ends here-->
+        </div>
+      </div>
+    </div>
+
+    <h3 style="text-align: center; margin-top: 5%"><i>Know About Us</i></h3>
+    <p style="padding: 5%">
+      <i
+        >Welcome to The Flower Shop, your premier destinatin for exquisite
+        flower decoration services . At[Your Company Name], we are passionate
+        about transforming spaces into enchanting and memorable experiances
+        through the beauty of flowers. Our journey begon in 2022 with a vision
+        to bring joy and elegence to every occasion. Over the two years, we have
+        had the privilage of working with countless clints, creating stunning
+        Horal arrangements for wedding, event,and special celebrations.
+      </i>
+    </p>
+    <table style="width: 100%; margin: 3%">
+      <tr style="text-align: center">
+        <th>
+          <i><b>Our Mission</b></i>
+        </th>
+        <th>
+          <i><b>Our Pledge</b></i>
+        </th>
+        <th>
+          <i><b>Our Vision</b></i>
+        </th>
+      </tr>
+
+      <tr style="margin-top: 10%">
+        <td style="padding: 5px">
+          <i
+            >Our mission at[Your company Name] is to spread happiness and create
+            lasting memories through the artistry of flowers. We strive to
+            exceed expectations, delivering exceptional floral designs and
+            umparalleled service to our valued clints.
+          </i>
+        </td>
+        <td style="padding: 5px">
+          <i
+            >Our pledge is to continuously push the boundaries of floral design,
+            infusing every arrangement with passion preciosion, and a touch of
+            enhantment. We aim to inspire moments of connection, celebration,
+            and reflection, guided by our belief that flowers have the power to
+            elevate the human experience.</i
+          >
+        </td>
+        <td style="padding: 5px">
+          <i
+            >We aspire to be the leading innovators in the floral industry,
+            setting new standards for creativity, quality, and personalized
+            service. Our vision is to redefine the way people experience and
+            appreciate the artistry of flowers, making each interaction with our
+            creation a memorable and joyful affair.
+          </i>
+        </td>
+      </tr>
+    </table>
+
+    <h2 style="margin: 5%; text-align: center"><i>Featured Showcase</i></h2>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-3">
+          <img
+            src="images (2)/images/products/p1.jpg"
+            width="300px"
+            height="200px"
+            alt=""
+          />
+          <h2 style="text-align: center"><i>Tulip Flower</i></h2>
+          <p>
+            The tulip is a beautiful and popular flower known for its vibrant
+            colors distinct shope. It is often associated with love and
+            springtime. Tulips come in various colors, including red.
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <img
+            src="images (2)/images/products/p2.jpg"
+            width="300px"
+            height="200px"
+            alt=""
+          />
+          <h2 style="text-align: center"><i>Red & White Flower</i></h2>
+          <p>
+            Red and white flowers are known fortheir beauty and symbolism. They
+            are often associated with love, purity, and elegance. Here are a few
+            examples of stunning red and white flowers.
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <img
+            src="images (2)/images/products/p3.jpg"
+            width="300px"
+            height="200px"
+            alt=""
+          />
+          <h2 style="text-align: center"><i>Black Eyed Flower</i></h2>
+          <p>
+            Black-Eyed susans are native to North America and are often found in
+            garden and meadows. They bloom from late spring to early fall,
+            attracting butterflies and bees.
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <img
+            src="images (2)/images/products/p4.jpg"
+            width="300px"
+            height="200px"
+            alt=""
+          />
+          <h2 style="text-align: center"><i>Lily Flower</i></h2>
+          <p>
+            Lilies belong to the genus Lilium and come in various types such as
+            Asiatic, Oriental, and Trumpet lilies. They are often used in
+            bouquets and gardens, symbolizing purity.
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <img
+            src="images (2)/images/products/p5.jpg"
+            width="300px"
+            height="200px"
+            alt=""
+          />
+          <h2 style="text-align: center"><i>Rose Flower</i></h2>
+          <p>
+            Roses belong to the genus Rosa and come in a variety of colors,
+            including red, pink, white, and yellow. They are widely used in
+            bouquets, garens, and as expressions of love and affection.
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <img
+            src="images (2)/images/products/p6.jpg"
+            width="300px"
+            height="200px"
+            alt=""
+          />
+          <h2 style="text-align: center"><i>Orange Rose Flower</i></h2>
+          <p>
+            Orange roses are often associated with enthusiasm energy, and
+            desire. They are a perfect choise to convay feelings of admination
+            and attraction. The Orange hue adds a burst.
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <img
+            src="images (2)/images/products/p7.jpg"
+            width="300px"
+            height="200px"
+            alt=""
+          />
+          <h2 style="text-align: center"><i>Sun Flower</i></h2>
+          <p>
+            Sunflowers are native to North America and are named for thier
+            tendency to turn thier faces towards the sun. They have large,
+            yellow-rayed patels surrounding a central disk.
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <img
+            src="images (2)/images/products/p8.jpg"
+            width="300px"
+            height="200px"
+            alt=""
+          />
+          <h2 style="text-align: center"><i>Magnolia Flower</i></h2>
+          <p>
+            Magnolia are ancient flowers that date back millions of yeras. They
+            come in various species, and their bloosms can be white, pink, or
+            purple. Magnolias symbolize beauty.
+          </p>
+        </div>
+      </div>
+    </div>
+    <h2 style="text-align: center; margin: top 15px"><i>Our Testimonial</i></h2>
+    <div
+      class="container"
+      style="
+        background: radial-gradient(
+          circle,
+          rgb(109, 118, 218) 10%,
+          rgba(231, 182, 231, 1) 57%
+        );
+      "
+    >
+      <div class="row">
+        <div class="col-sm-12" style="text-align: center">
+          <!--carousel starts here-->
+          <div class="d-block w-100">
+            <div
+              class="carousel slide carousel-fade"
+              id="demo2"
+              data-bs-ride="carousel"
+            >
+              <!--Carousel images starts here-->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images (2)/images/clients/4.jpg"
+                    class="rounded-circle"
+                    width="150px"
+                    height="100"
+                    class="d-block w-100"
+                  />
+                  <p>
+                    Amazing Offers an Array Of Unique Products From Hundreds Of
+                    Brands. Prime Members Can Enjoy Unlimited Free Shipping,
+                    Early Access To Lightning Deals and More.
+                  </p>
+                  <div class="carousel-caption"></div>
+                  <h3>Clint-1</h3>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images (2)/images/clients/4.jpg"
+                    class="rounded-circle"
+                    width="150px"
+                    height="100px"
+                    class="d-block w-100"
+                  />
+                  <p>
+                    Amazing Offers an Array Of Unique Products From Hundreds Of
+                    Brands. Prime Members Can Enjoy Unlimited Free Shipping,
+                    Early Access To Lightning Deals and More.
+                  </p>
+                  <div class="carousel-caption"></div>
+                  <h3>Clint-2</h3>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images (2)/images/clients/4.jpg"
+                    class="rounded-circle"
+                    width="150px"
+                    height="100px"
+                    class="d-block w-100"
+                  />
+                  <p>
+                    Amazing Offers an Array Of Unique Products From Hundreds Of
+                    Brands. Prime Members Can Enjoy Unlimited Free Shipping,
+                    Early Access To Lightning Deals and More.
+                  </p>
+                  <div class="carousel-caption"></div>
+                  <h3>Clint-3</h3>
+                </div>
+              </div>
+              <!--Carousel images starts here-->
+
+              <!--Left and Right Controls starts here-->
+              <button
+                type="button"
+                class="carousel-control-prev"
+                data-bs-slide="prev"
+                data-bs-target="#demo2"
+              >
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+
+              <button
+                type="button"
+                class="carousel-control-next"
+                data-bs-slide="next"
+                data-bs-target="#demo2"
+              >
+                <span class="carousel-control-next-icon"></span>
+              </button>
+              <!--Left and Right Controls ends here-->
+
+              <!--Indicators starts here-->
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#demo2"
+                  class="active"
+                  data-bs-slide-to="0"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#demo2"
+                  data-bs-slide-to="1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#demo2"
+                  data-bs-slide-to="2"
+                ></button>
+              </div>
+              <!--Indicators ends here-->
+            </div>
+            <!--carousel ends here-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 style="text-align: center; margin: top 20px"><i>Pricing Plans</i></h2>
+    <div class="container mt-5">
+      <div class="row">
+        <div
+          class="col-sm-4"
+          style="
+            background: radial-gradient(
+              circle,
+              rgb(109, 118, 218) 10%,
+              rgb(225, 117, 225) 57%
+            );
+            text-align: center;
+          "
+          width="200px"
+          height="200px"
+        >
+          <h3><i>Basic plan</i></h3>
+          <i>For Small Events</i>
+          <h5><i>$29.9/month</i></h5>
+          <h6>Flower Arrangements</h6>
+          <h6>Venue Decoration</h6>
+          <h6>Delivery and Setup</h6>
+          <a href="#"
+            ><button style="background-color: blueviolet" type="button">
+              Book Now
+            </button></a
+          >
+        </div>
+        <div
+          class="col-sm-4"
+          style="
+            background: radial-gradient(
+              circle,
+              rgb(109, 118, 218) 10%,
+              rgb(225, 117, 225) 57%
+            );
+            text-align: center;
+          "
+          width="200px"
+          height="200px"
+        >
+          <h3><i>Primimum Plan</i></h3>
+          <i>For Meddium Events</i>
+          <h5><i>$59.9/month</i></h5>
+          <h6>Custom Flower Arrangements</h6>
+          <h6>Full Venue Decoration</h6>
+          <h6>Delivery, Setup, and Teardow</h6>
+          <a href="#"
+            ><button style="background-color: blueviolet" type="button">
+              Book Now
+            </button></a
+          >
+        </div>
+        <div
+          class="col-sm-4" 
+          style="
+            background: radial-gradient(
+              circle,
+              rgb(109, 118, 218) 10%,
+              rgb(225, 117, 225) 57%
+            );
+            text-align: center;
+          "
+          width="200px"
+          height="200px"
+        >
+          <h3><i>Delux Plan</i></h3>
+          <i>For Large Events</i>
+          <h5><i>$99.9/month</i></h5>
+          <h6>Custom Flower Arrangements</h6>
+          <h6>Venue Decoration</h6>
+          <h6>personalized Consultation</h6>
+
+          <a href="#"
+            ><button style="background-color: blueviolet" type="button">
+              Book Now
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+    <h2 style="text-align: center; margin-top: 10px"><i>Contact Us</i></h2>
+    <h6 style="text-align: center">
+      <i>Have questions or feedback? Reach out to us!</i>
+    </h6>
+    <form>
+      <table align="center">
+        <tr>
+          <td>
+            <input type="text" style="margin:5px;" placeholder=" Your Name"
+            size="50"
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="text"
+              style="margin: 5px"
+              placeholder="Your Email"
+              size="50"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <textarea
+              style="margin: 5px"
+              placeholder="Your Message"
+              rows="2"
+              cols="50"
+            ></textarea>
+          </td>
+        </tr>
+        <tr style="text-align: center;">
+          <td>
+            <button type="button" style="background-color: blueviolet" >
+              Send Message
+            </button>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
